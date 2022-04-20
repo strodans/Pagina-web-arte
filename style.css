@@ -1,0 +1,15 @@
+body{
+    padding: 60 px 0 0 0;
+
+}
+
+.d-flex {
+    position: relative;
+    top: 0px;
+    right: -450px;
+}
+
+
+.d-block w-100{
+    size: 20px;
+}
