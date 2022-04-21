@@ -31,7 +31,18 @@ body{
     font-weight: 300;
 }
 
+.articulos h1{
+    text-align: center;
+    margin: 20px 0 15px 0;
+    font-weight: 300;
+}
+
+
 .linea{
+    border-top: 5px solid #000000;
+}
+
+.linea2{
     border-top: 5px solid #000000;
 }
 
@@ -59,4 +70,238 @@ body{
 .imagen img{
     width: 100%;
     height: 100%;
+}
+
+
+
+.contenedor-articulo{
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: left ;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    
+}
+
+
+.contenedor-articulo .articulo{
+
+    width: 32%;
+    position: relative;
+    height: 400px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0);
+    top: 150px;
+    left: 120px;
+}
+
+.articulo img{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    
+}
+
+.valor1{
+    justify-content: left ;
+    position: relative;
+    top: 180px;
+    left: 380px;
+
+}
+
+.valor1 h1{
+    font-family: 'open sans';
+    text-align: left;
+    margin: 20px 0 15px 0;
+    font-weight: 300; 
+}
+
+.valor1 h2{
+    font-family: 'arial';
+    text-align: left;
+    margin: 20px 0 11px 0;
+    font-weight: 300; 
+}
+
+.valor1 h3{
+    font-family: 'open sans';
+    text-align: left;
+    margin: 20px 0 11px 0;
+    font-weight: 300;  
+}
+
+.valor1 p{
+    font-family: 'arial';
+    text-align: left;
+    margin: 2px 0 11px 0;
+    font-weight: 300;  
+}
+
+
+
+.card {
+    justify-content: left ;
+    position: relative;
+    top: 600px;
+    left: -650px;
+
+}
+
+
+.artista1{
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: left ;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    
+}
+
+
+.artista1 .claudia-canobra{
+
+    width: 32%;
+    position: relative;
+    height: 400px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0);
+    top: 150px;
+    left: 120px;
+}
+
+.artista1 .laila-havilio{
+
+    width: 32%;
+    position: relative;
+    height: 400px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0);
+    top: 150px;
+    left: 120px;
+}
+
+
+.artista1 .hernan-paravic{
+
+    width: 32%;
+    position: relative;
+    height: 400px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0);
+    top: 150px;
+    left: 120px;
+}
+
+.claudia img{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px; 
+    justify-content: left ;
+    position: relative;
+    top: -100px;
+    left: 800px;
+}
+
+.laila img{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px; 
+    justify-content: left ;
+    position: relative;
+    top: 0px;
+    left: 800px;
+}
+
+.hernan img{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px; 
+    justify-content: left ;
+    position: relative;
+    top: 0px;
+    left: 800px;
+}
+
+.about-claudia h1{
+    font-family: 'open sans';
+    text-align: left;
+    margin: 20px 0 15px 0;
+    font-weight: 300; 
+    justify-content: left ;
+    position: relative;
+    top: -700px;
+    left: 100px;
+}
+
+.about-claudia h2{
+    font-family: 'open sans';
+    text-align: left;
+    margin: 20px 0 15px 0;
+    font-weight: 300; 
+    justify-content: left ;
+    position: relative;
+    top: -700px;
+    left: 100px;
+}
+
+.about-claudia p{
+    font-family: 'open sans';
+    text-align: left;
+    margin: 20px 0 15px 0;
+    font-weight: 300; 
+    justify-content: left ;
+    position: relative;
+    top: -700px;
+    left: 100px;
+}
+
+.about-laila h1{
+    font-family: 'open sans';
+    text-align: left;
+    margin: 20px 0 15px 0;
+    font-weight: 300; 
+    justify-content: left ;
+    position: relative;
+    top: -500px;
+    left: 100px;
+}
+
+
+
+.about-laila p{
+    font-family: 'open sans';
+    text-align: left;
+    margin: 20px 0 15px 0;
+    font-weight: 300; 
+    justify-content: left ;
+    position: relative;
+    top: -500px;
+    left: 100px;
+}
+
+.about-hernan h1{
+    font-family: 'open sans';
+    text-align: left;
+    margin: 20px 0 15px 0;
+    font-weight: 300; 
+    justify-content: left ;
+    position: relative;
+    top: -500px;
+    left: 100px;
+}
+
+
+
+.about-hernan p{
+    font-family: 'open sans';
+    text-align: left;
+    margin: 20px 0 15px 0;
+    font-weight: 300; 
+    justify-content: left ;
+    position: relative;
+    top: -500px;
+    left: 100px;
 }
