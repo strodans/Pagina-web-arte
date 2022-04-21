@@ -145,7 +145,14 @@ body{
     justify-content: left ;
     position: relative;
     top: 600px;
-    left: -650px;
+    left: -450px;
+
+}
+.card_articulo_1 {
+    justify-content: left ;
+    position: relative;
+    top: 600px;
+    left: -350px;
 
 }
 
